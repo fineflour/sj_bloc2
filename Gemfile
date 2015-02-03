@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.3'
+gem 'rails', '4.1.2'
 
 # Use postgresql as the database for Active Record
 gem 'pg'
-gem 'sass-rails', '~> 4.0.0'
+gem 'sass-rails', '~> 4.0.3'
 gem 'bootstrap'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '3.2.0.0'
 gem 'haml'
 gem 'haml-rails'
 gem 'coffee-rails', '~> 4.0.0'
@@ -23,6 +23,8 @@ group :test do
   gem 'rspec-rails'  
   gem 'rspec'
 end
+
+#gem 'rails-api'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
